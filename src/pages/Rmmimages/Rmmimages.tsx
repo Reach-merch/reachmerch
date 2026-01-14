@@ -39,11 +39,11 @@ const Rmmimages: React.FC = () => {
             >
                 {/* Maintain 16:9 ratio for 1280×720 images */}
                 <div className="w-full bg-gray-100 p-2 flex items-center justify-center rounded">
-                  <img
-                    src={item.file}
-                    alt={`RMM image ${index + 1}`}
-                    className="w-full h-auto object-contain"
-                  />
+                <img
+                  src={item.file}
+                  alt={`REACH Merchandising Manager gallery image ${index + 1}`}
+                  className="w-full h-auto object-contain"
+                />
                 </div>
             </div>
             ))}

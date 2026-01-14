@@ -9,13 +9,9 @@ const Footer = () => {
   const footerLinks = [
     { label: "About REACH Merchandising Manager", path: "/about" },
     { label: "Benefits of REACH Merchandising Manager", path: "/benefits" },
-    // { label: "Learning Guides", path: "/learningguide" },
     { label: "Presentations", path: "/presentations" },
     { label: "REACH Merchandising Manager Images", path: "/rmmimages" },
     { label: "Articles", path: "/articles" },
-    // { label: "Case Studies", path: "/casestudies" },
-
-    // ⭐ FINAL: About REACH Technologies → open external website
     {
       label: "About REACH Technologies",
       external: "https://reach-tech.com/aboutUs.html",
@@ -34,13 +30,15 @@ const Footer = () => {
               The REACH Merchandising Manager
             </p>
 
-
-                        {/* Contact Icons Section */}
+            {/* Contact Icons Section */}
             <div className="mt-6 space-y-4">
-
               {/* Email */}
               <div className="flex items-center gap-3">
-                <img src={emailIcon} alt="email icon" className="w-8" />
+                <img
+                  src={emailIcon}
+                  alt="Email icon for contacting REACH Technologies"
+                  className="w-8"
+                />
                 <span className="text-gray-300 text-lg">
                   info@reach-tech.com
                 </span>
@@ -53,7 +51,11 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3"
               >
-                <img src={whatsappIcon} alt="whatsapp icon" className="w-8" />
+                <img
+                  src={whatsappIcon}
+                  alt="WhatsApp icon for contacting REACH Merchandising Manager support"
+                  className="w-8"
+                />
                 <span className="text-gray-300 text-lg">
                   +91 84592 78496
                 </span>
@@ -66,14 +68,16 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-4"
               >
-                <img src={contactIcon} alt="contact icon" className="w-7" />
+                <img
+                  src={contactIcon}
+                  alt="Contact form icon for writing to REACH Technologies"
+                  className="w-7"
+                />
                 <span className="text-gray-300 text-lg">
                   Write to Us
                 </span>
               </a>
-
             </div>
-
           </div>
 
           <div>
@@ -102,8 +106,7 @@ const Footer = () => {
             </nav>
           </div>
 
-
-                    <div>
+          <div>
             <h3 className="text-lg font-semibold mb-4">Partners</h3>
             <nav className="space-y-3">
               <Link to="/SalesPartners" className="block text-gray-300 hover:text-primary transition">Sales Partners</Link>
@@ -113,7 +116,6 @@ const Footer = () => {
               <Link to="/NonProfitOrganisations" className="block text-gray-300 hover:text-primary transition">Non Profit Organisations</Link>
             </nav>
           </div>
-          
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
