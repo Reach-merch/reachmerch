@@ -24,7 +24,7 @@ const Rmmimages: React.FC = () => {
 
       {/* Page Title */}
       <div className="bg-gray-200 m-4 py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center text-primary">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center text-024959">
           REACH Merchandising Manager Images
         </h1>
       </div>

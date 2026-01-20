@@ -1,24 +1,27 @@
-import { Clock, Users, TrendingUp, Star } from "lucide-react";
+import manageIcon from "@/assets/manage.png";
+import revenuesIcon from "@/assets/revenue.png";
+import costsIcon from "@/assets/costs.png";
+import strategyIcon from "@/assets/strategy.png";
 
 const BenefitsSection = () => {
   const benefits = [
     {
-      icon: Clock,
+      icon: manageIcon,
       title: "Manage Your Company by Exception",
       description: "REACH Merchandising Manager will, thus, enable you to 'manage your company by exception' directing the vast majority of the company's human attention to the 'out-of-the ordinary' business situations that present the most risk and greatest opportunity."
     },
     {
-      icon: Users,
+      icon: revenuesIcon,
       title: "Impact on Revenues",
       description: "End-to-End integration of company data ensures all parties have the latest, most accurate information. This leads to cutting down on wastage, shortening time-to-market cycles for new collections and styles while accelerating your ROI (Return On Investment)."
     },
     {
-      icon: TrendingUp,
+      icon: costsIcon,
       title: "Impact on Costs",
       description: "REACH Merchandising Manager helps you cut inventory volumes, eliminate production backlogs, and reduce the expense of working with partners, resulting in greater efficiency with dramatically lowered costs."
     },
     {
-      icon: Star,
+      icon: strategyIcon,
       title: "Impact on Strategy",
       description: "Rapid analysis of critical business data from all parts of your value chain enables fast and accurate planning of budgets and forecasts."
     }
@@ -27,7 +30,7 @@ const BenefitsSection = () => {
   return (
     <section className="py-16 bg-white text-primary">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-primary">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-024959">
           Benefits of REACH Merchandising Manager
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
@@ -38,11 +41,15 @@ const BenefitsSection = () => {
           {benefits.map((benefit, index) => (
             <div key={index} className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="flex items-start space-x-4">
-                <div className="bg-primary/10 p-3 rounded-lg flex-shrink-0">
-                  <benefit.icon className="w-8 h-8 text-primary" />
+                <div className="bg-bef0fb p-3 rounded-lg flex-shrink-0">
+                  <img
+                    src={benefit.icon}
+                    alt={benefit.title}
+                    className="w-8 h-8"
+                  />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-primary mb-3">{benefit.title}</h3>
+                  <h3 className="text-xl font-bold text-0a829e mb-3">{benefit.title}</h3>
                   <p className="text-muted-foreground leading-relaxed">{benefit.description}</p>
                 </div>
               </div>
