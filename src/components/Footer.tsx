@@ -27,7 +27,7 @@ const Footer = () => {
               <span className="text-primary">REACH</span> Merchandising Manager
             </Link>
             <p className="text-gray-300 max-w-md">
-              The REACH Merchandising Manager
+              Best In Class Apparel Merchandising Software
             </p>
 
             {/* Contact Icons Section */}

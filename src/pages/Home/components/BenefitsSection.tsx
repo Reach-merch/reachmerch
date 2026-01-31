@@ -34,12 +34,12 @@ const BenefitsSection = () => {
           Benefits of REACH Merchandising Manager
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          REACH Merchandising Manager
+          Best In Class Apparel Merchandising Software
         </p>
         
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {benefits.map((benefit, index) => (
-            <div key={index} className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div key={index} className="bg-gray-100 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="flex items-start space-x-4">
                 <div className="bg-bef0fb p-3 rounded-lg flex-shrink-0">
                   <img
