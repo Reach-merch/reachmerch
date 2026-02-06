@@ -15,9 +15,9 @@ const BenefitLinks = () => {
           Benefits of using <span className="text-0a829e">REACH Merchandising Manager</span>
         </h2>
 
-        {/* <p className="text-center text-lg text-gray-600 max-w-3xl mx-auto mb-12">
-          Merchandising Manager
-        </p> */}
+        <p className="text-center text-lg text-gray-600 max-w-3xl mx-auto mb-12">
+          Best In Class Apparel Merchandising Software
+        </p>
 
 
       <div className="space-y-6 max-w-5xl mx-auto">
